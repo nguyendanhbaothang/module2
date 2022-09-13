@@ -15,25 +15,9 @@
     $count =0 ;
         }
     }
-    // if ( $_SERVER['REQUEST_METHOD']== 'POST') {
-    //     $number = $_REQUEST['number'];
-    //  $count = 0;
-    //  $a = 2;
-    // while ($count < $number){
-    // $flag = true;
-    //     for(  $i=2; $i< $a;$i++){
-    //         if($a%$i ==0){
-    //             $flag = false;
-    //         }
-    //     }
-    //     if($flag){
-    //         echo $a;
-    //         echo '<br>';
-    //         $count++;
-    //     }
-    //     $a++;
-    // }
-    // }
+
+
+    
  ?>
  <!DOCTYPE html>
  <html lang="en">
