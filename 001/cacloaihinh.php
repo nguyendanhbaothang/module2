@@ -11,8 +11,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $luachon = $_REQUEST['luachon'];
     switch ($luachon) {
         case '+':
-
-
             for ($i = 0; $i < 3; $i++) {
                 echo "<br>";
                 for ($j = 0; $j < 7; $j++) {
@@ -20,6 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 }
             }
 
+            
             break;
         case '-':
             for ($i = 0; $i <= 5; $i++) {
