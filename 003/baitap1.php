@@ -5,6 +5,7 @@ if ( $_SERVER['REQUEST_METHOD']== 'POST') {
     $c = $_REQUEST['nhapsothuba'];
 
 class BacHai {
+    //thuộc tính
     public $a = '';
     public $b = '';
     public $c = '';
@@ -13,6 +14,7 @@ class BacHai {
         $this -> b = $ts_b;
         $this -> c = $ts_c;
     }
+    //phương thức
     public function setA($a){
         $this -> a = $a;
     }
@@ -50,6 +52,7 @@ class BacHai {
         }
     }
 }
+// khởi tạo đói tượng
 $objBacHai = new BacHai($a,$b,$c);
 $objBacHai->GetRoot1();
 }
