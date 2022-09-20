@@ -40,7 +40,7 @@ class Triangle extends Shape{
         $this->height=$height;
     }
     public function getArea(){
-        return 'Diện tích của tam giác là :'.($this->b*$this->c*$this->height)/2;
+        return 'Diện tích của tam giác là :'.($this->a*$this->height)/2;
     }
 }
 $Triangle = new Triangle(6,6,6,10);
