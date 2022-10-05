@@ -23,5 +23,11 @@ if ( $_SERVER['REQUEST_METHOD']== 'POST') {
   <input type="text" id="" name="nhap" value=""><br>
   <input type="submit" value="Kiểm tra">
 </form>
+
+<h5>-Số điện thoại hợp lệ cần đạt theo mẫu sau: (xx)-(0xxxxxxxxx).</h5>
+<h5> + x là ký tự số .</h5>
+<h5>+Không chứa các ký tự đặc biệt .</h5>
+<h5>-Ví dụ số điện thoại hợp lệ: (84)-(0978489648) .</h5>
+<h5>-Ví dụ tên lớp không hợp lệ: (a8)-(22222222) .</h5>
 </body>
 </html>
